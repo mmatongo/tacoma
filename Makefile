@@ -3,4 +3,7 @@ run:
 
 install:
 	go build -o bin/tacoma main.go
-	cp bin/tacoma /usr/local/bin
+	cp bin/tacoma /usr/bin
+	
+build:
+	go build -o bin/tacoma main.go
